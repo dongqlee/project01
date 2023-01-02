@@ -1,0 +1,56 @@
+* {margin: 0; padding: 0;}
+img {display: block;}
+
+.product_sheet {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_sheet img{
+  width: 100%;
+}
+.product_sheet .pro_box {
+  width: 260px; height: 400px;
+  margin-right: 10px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product_sheet .pro_box:nth-child(4n) {
+  margin-right: 0;
+}
+.product_sheet .pro_box .icon_box {
+  width: 260px; height: 260px;
+  position: absolute;
+  top: 0;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.product_sheet .pro_box .icon_box .icon {
+  position: absolute;
+  top: 220px; right: 10px;
+}
+.product_sheet .pro_box .icon_box .cart {
+  width: 30px; height: 30px;
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.product_sheet .pro_box .icon_box .heart_on {
+  width: 30px; height: 30px;
+  cursor: pointer;
+  display: none;
+  float: right;
+}
+.product_sheet .pro_box .icon_box .heart_off {
+  width: 30px; height: 30px;
+  cursor: pointer;
+  float: right;
+}
+.product_sheet .pro_box .icon_box .cart:active,
+.product_sheet .pro_box .icon_box .heart_off:active, 
+.product_sheet .pro_box .icon_box .heart_on:active
+ {
+  width: 29px; height: 29px;
+}

@@ -1,0 +1,165 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a  {color: black; text-decoration: none;}
+img {display: block;}
+
+.join_sheet {
+  margin-left: 40px;
+}
+.main_title {
+  font-size: 20px;
+}
+
+span {
+  color: red;
+}
+.essential_info {
+  width: 800px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.essential_info .title {
+  width: 120px; height: 40px;
+  line-height: 40px;
+}
+.essential_info .es_info {
+  display: flex; 
+  height: 40px;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+.essential_info .es_info .blank_box {
+  display: flex;
+}
+.es_info .blank_box div {
+  width: 170px; height: 40px;
+  border: 1px solid #666;
+  box-sizing: border-box;
+  background-color: #ccc;
+  text-align: center;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.es_info .blank_box div:hover {
+  font-weight: bold;
+}
+.es_info .blank_box div:active {
+  background-color: white;
+}
+.essential_info .id_message,
+.essential_info .pw_message01,
+.essential_info .pw_message02,
+.essential_info .telecom_box {
+  margin-left: 120px;
+}
+.essential_info .phone_box .telecom {
+  display: block;
+  margin-right: 10px;
+  margin-left: 16px;
+}
+.phone_box .telecom_box label {
+  
+  margin-left: 8px;
+}
+
+.email_box #email02 {
+  margin-right: 10px;
+}
+.birth_box select {
+  width: 80px;
+  text-align: center;
+}
+.birth_box #month, 
+.birth_box #day {
+  margin-left: 10px;
+}
+.additional_info .add_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.add_info_sheet {
+width: 800px;
+border: 1px solid black;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+.add_info_sheet>div {
+  width: 90%;
+  border-bottom: 1px solid #ccc;
+  margin: 8px;
+  padding-bottom: 8px;
+}
+
+.add_info_sheet .title {
+  margin-bottom: 10px;
+}
+
+.terms_box {
+  width: 800px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.terms_box .title_txt {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.terms_box span {
+  color: black;
+}
+.terms_box .terms_txt01,
+.terms_box .terms_txt02 {
+  width: 90%; height: 120px;
+  overflow: auto;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+.btn_join {
+  width: 800px; height: 60px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn_join:active {
+  background-color: white; color: red;
+  border: 1px solid red; 
+  box-sizing: border-box;
+}
+
+.btn_cancel {
+  width: 800px; height: 60px;
+  margin-bottom: 20px;
+}
+.btn_cancel a {
+  display: block;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 20px;
+  
+}
+.btn_cancel a:active {
+  background-color: black;
+  color: white;
+}
