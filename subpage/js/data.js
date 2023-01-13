@@ -7,7 +7,9 @@ const productList01 = [
     hover: "./js/images/product01_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: 2
   },
   {
     id: "pro02",
@@ -17,7 +19,9 @@ const productList01 = [
     hover: "./js/images/product02_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: 1
   },
   {
     id: "pro03",
@@ -27,7 +31,9 @@ const productList01 = [
     hover: "./js/images/product03_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: 3
   },
   {
     id: "pro04",
@@ -37,7 +43,10 @@ const productList01 = [
     hover: "./js/images/product04_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: 13
+
   },
   {
     id: "pro05",
@@ -47,7 +56,9 @@ const productList01 = [
     hover: "./js/images/product05_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: '12'
   },
   {
     id: "pro06",
@@ -57,7 +68,9 @@ const productList01 = [
     hover: "./js/images/product06_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steak',
+    popularity: 23
   },
   {
     id: "pro07",
@@ -67,7 +80,9 @@ const productList01 = [
     hover: "./js/images/product07_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 11
   },
   {
     id: "pro08",
@@ -77,7 +92,9 @@ const productList01 = [
     hover: "./js/images/product08_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 9
   },
   {
     id: "pro09",
@@ -87,7 +104,9 @@ const productList01 = [
     hover: "./js/images/product09_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 10
   },
   {
     id: "pro10",
@@ -97,7 +116,9 @@ const productList01 = [
     hover: "./js/images/product10_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 8
   },
   {
     id: "pro11",
@@ -107,7 +128,9 @@ const productList01 = [
     hover: "./js/images/product11_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 14
   },
   {
     id: "pro12",
@@ -117,7 +140,9 @@ const productList01 = [
     hover: "./js/images/product12_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'ball',
+    popularity: 24
   },
   {
     id: "pro13",
@@ -127,7 +152,9 @@ const productList01 = [
     hover: "./js/images/product13_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 7
   },
   {
     id: "pro14",
@@ -137,7 +164,9 @@ const productList01 = [
     hover: "./js/images/product14_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 6
   },
   {
     id: "pro15",
@@ -147,7 +176,9 @@ const productList01 = [
     hover: "./js/images/product15_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 5
   },
   {
     id: "pro16",
@@ -157,7 +188,10 @@ const productList01 = [
     hover: "./js/images/product16_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 22
+    
   },
   {
     id: "pro17",
@@ -167,7 +201,9 @@ const productList01 = [
     hover: "./js/images/product17_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 21
   },
   {
     id: "pro18",
@@ -177,7 +213,9 @@ const productList01 = [
     hover: "./js/images/product18_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'sauce',
+    popularity: 4
   },
   {
     id: "pro19",
@@ -187,7 +225,9 @@ const productList01 = [
     hover: "./js/images/product19_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steam',
+    popularity: 15
   },
   {
     id: "pro20",
@@ -197,7 +237,9 @@ const productList01 = [
     hover: "./js/images/product20_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steam',
+    popularity: 16
   },
   {
     id: "pro21",
@@ -207,7 +249,9 @@ const productList01 = [
     hover: "./js/images/product21_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steam',
+    popularity: 18
   },
   {
     id: "pro22",
@@ -217,7 +261,9 @@ const productList01 = [
     hover: "./js/images/product22_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steam',
+    popularity: 17
   },
   {
     id: "pro23",
@@ -227,18 +273,22 @@ const productList01 = [
     hover: "./js/images/product23_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
+    cart: "./js/images/cart.png",
+    type: 'steam',
+    popularity: 20
   },
   {
     id: "pro24",
-    name: "닭가슴살 스테이크 갈릭맛",
+    name: "프로틴 훈제 닭가슴살",
     price: 19300,
     src: "./js/images/product24.jpg",
     hover: "./js/images/product24_back.jpg",
     heart_off: "./js/images/heart_off.png",
     heart_on: "./js/images/heart_on.png",
-    cart: "./js/images/cart.png"
-  },
+    cart: "./js/images/cart.png",
+    type: 'smoked',
+    popularity: 19
+  }
 ]
 
 export default productList01
