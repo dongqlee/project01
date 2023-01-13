@@ -88,6 +88,9 @@ for(let i=0; i<productList01.length; i++) {
   proPrice.appendChild(proPriceText)
   proDiv.appendChild(proPrice)
   section.appendChild(proDiv)
+  proDiv.addEventListener('click', () => {
+    window.location.href='../detail/detail.html'
+  })
 }
 
 pop.addEventListener('click', () => {
@@ -171,6 +174,9 @@ pop.addEventListener('click', () => {
     proPrice.appendChild(proPriceText)
     proDiv.appendChild(proPrice)
     popSheet.appendChild(proDiv)
+    proDiv.addEventListener('click', () => {
+      window.location.href='../detail/detail.html'
+    })
   }
 
 lowTohigh.addEventListener('click', () => {
@@ -254,6 +260,9 @@ lowTohigh.addEventListener('click', () => {
     proPrice.appendChild(proPriceText)
     proDiv.appendChild(proPrice)
     lowSheet.appendChild(proDiv)
+    proDiv.addEventListener('click', () => {
+      window.location.href='../detail/detail.html'
+    })
   }
 
 
@@ -339,4 +348,9 @@ highTolow.addEventListener('click', () => {
     proPrice.appendChild(proPriceText)
     proDiv.appendChild(proPrice)
     highSheet.appendChild(proDiv)
+    proDiv.addEventListener('click', () => {
+      window.location.href='../detail/detail.html'
+    })
   }
+
+
